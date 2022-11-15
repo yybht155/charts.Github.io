@@ -15,3 +15,8 @@ helm repo list
 - 搜索chart包
   
 - 安装chart包
+
+- 添加index
+```
+helm repo index --url https://github.com/yybht155/helm-charts .
+```
