@@ -3,7 +3,7 @@ entries:
   gitlab:
   - apiVersion: v1
     appVersion: 15.6.2
-    created: "2022-12-28T14:19:53.8989912+08:00"
+    created: "2022-12-28T15:16:53.9142517+08:00"
     dependencies:
     - name: gitlab
       repository: ""
@@ -71,7 +71,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.4.0
-    created: "2022-12-28T14:19:53.9073448+08:00"
+    created: "2022-12-28T15:16:53.9316935+08:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: f9bbdcc69139971ec1182021326a5146e3ff3f28d3b78fbb80d7426e898f1d9e
@@ -91,33 +91,4 @@ entries:
     urls:
     - https://github.com/yybht155/helm-charts/ingress-nginx-4.3.0.tgz
     version: 4.3.0
-  nexus-repository-manager:
-  - apiVersion: v2
-    appVersion: 3.43.0
-    created: "2022-12-28T14:19:53.9175933+08:00"
-    description: Sonatype Nexus Repository Manager - Universal Binary repository
-    digest: 87573efefc6161e38859a193908f495e2d68cc16541d53c9948f4568f97e8a83
-    home: https://www.sonatype.com/nexus-repository-oss
-    icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
-    keywords:
-    - artifacts
-    - dependency
-    - management
-    - sonatype
-    - nexus
-    - repository
-    - quickstart
-    - ci
-    - repository-manager
-    - nexus3
-    maintainers:
-    - email: support@sonatype.com
-      name: Sonatype
-    name: nexus-repository-manager
-    sources:
-    - https://github.com/sonatype/nexus-public
-    type: application
-    urls:
-    - https://github.com/yybht155/helm-charts/nexus-repository-manager-43.0.0.tgz
-    version: 43.0.0
-generated: "2022-12-28T14:19:53.825757+08:00"
+generated: "2022-12-28T15:16:53.8477075+08:00"
