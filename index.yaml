@@ -3,7 +3,7 @@ entries:
   gitlab:
   - apiVersion: v1
     appVersion: 15.6.2
-    created: "2022-12-21T16:03:57.8220057+08:00"
+    created: "2022-12-28T14:19:53.8989912+08:00"
     dependencies:
     - name: gitlab
       repository: ""
@@ -47,7 +47,7 @@ entries:
       repository: ""
       version: '*.*.*'
     description: The One DevOps Platform
-    digest: 8be6d27b1498beb156b2887ffb2843ae2da850ded6f9cf8f585ba613806ca333
+    digest: 0338c3164e88d4a66d72b10bd0663b5d5865165b2299e4bfb7b4a864396f6777
     home: https://about.gitlab.com/
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     keywords:
@@ -59,7 +59,7 @@ entries:
     sources:
     - https://gitlab.com/gitlab-org/charts/gitlab
     urls:
-    - https://github.com/yybht155/helm-charts/gitlab-15.6.tgz
+    - https://github.com/yybht155/helm-charts/gitlab-6.6.2.tgz
     version: 6.6.2
   ingress-nginx:
   - annotations:
@@ -71,10 +71,10 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.4.0
-    created: "2022-12-21T16:03:57.8308342+08:00"
+    created: "2022-12-28T14:19:53.9073448+08:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
-    digest: 4cd6327bd5ea301ce8b30c547e579fd4702a75f04f0f696b5b61f9a5c79ef04a
+    digest: f9bbdcc69139971ec1182021326a5146e3ff3f28d3b78fbb80d7426e898f1d9e
     home: https://github.com/kubernetes/ingress-nginx
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
@@ -94,9 +94,9 @@ entries:
   nexus-repository-manager:
   - apiVersion: v2
     appVersion: 3.43.0
-    created: "2022-12-21T16:03:57.8370683+08:00"
+    created: "2022-12-28T14:19:53.9175933+08:00"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
-    digest: 518be845512578f178cd31c32642e814caa2d7bbf3de25eee362926d400d7fe3
+    digest: 87573efefc6161e38859a193908f495e2d68cc16541d53c9948f4568f97e8a83
     home: https://www.sonatype.com/nexus-repository-oss
     icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
     keywords:
@@ -118,6 +118,6 @@ entries:
     - https://github.com/sonatype/nexus-public
     type: application
     urls:
-    - https://github.com/yybht155/helm-charts/nexus-repository-manager-3.43.0.tgz
+    - https://github.com/yybht155/helm-charts/nexus-repository-manager-43.0.0.tgz
     version: 43.0.0
-generated: "2022-12-21T16:03:57.7431399+08:00"
+generated: "2022-12-28T14:19:53.825757+08:00"
