@@ -1,39 +1,38 @@
 # **helm-charts**
 
-helm的仓库地址为：https://yybht155.github.io/helm-charts
+项目地址：https://github.com/yybht155/helm-charts  
+仓库地址：https://yybht155.github.io/helm-charts
 
-<hr>
-<br>
+> 下载
 
 - 添加chart仓库
 ```shell
-helm repo add ghrepo https://yybht155.github.io/helm-charts
+  helm repo add ghrepo https://yybht155.github.io/helm-charts
 ```
 
-- 添加成功
+- 仓库列表
 ```
-helm repo list
+  helm repo list
 ```
 
 - 搜索chart包
 ```
-helm search []
+  helm search []
 ```
 
 - 安装chart包
 ```
-helm install []
+  helm install []
 ```
 
-<hr>
-<br>
+> 上传
 
 - helm打包
 ```
-helm package []
+  helm package []
 ```
 
 - 添加index
 ```
-helm repo index --url https://yybht155.github.io/helm-charts .
+  helm repo index --url https://yybht155.github.io/helm-charts .
 ```
