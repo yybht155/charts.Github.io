@@ -1,5 +1,66 @@
 apiVersion: v1
 entries:
+  gitlab:
+  - apiVersion: v1
+    appVersion: 15.6.2
+    created: "2022-12-28T17:10:53.9872865+08:00"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: minio
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: certmanager.install
+      name: cert-manager
+      repository: https://charts.jetstack.io/
+      version: 1.5.4
+    - condition: prometheus.install
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 15.0.4
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
+      version: 8.9.4
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: https://charts.gitlab.io/
+      version: 0.47.0
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.11.0
+    - condition: redis.install
+      name: redis
+      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
+      version: 11.3.4
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    description: The One DevOps Platform
+    digest: 8bb2cd5c28d4fd2bed4e1e340d3d9bd695c348b4baa31f45d0f60edd9f238a73
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - https://yybht155.github.io/helm-charts/gitlab-6.6.2.tgz
+    version: 6.6.2
   ingress-nginx:
   - annotations:
       artifacthub.io/changes: |
@@ -10,7 +71,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.4.0
-    created: "2022-12-28T16:48:19.4988513+08:00"
+    created: "2022-12-28T17:10:53.9961892+08:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 1d72ea68d41cd6195720480a390d7c6c354333590b8858944fb0f245111e6005
@@ -28,6 +89,35 @@ entries:
     sources:
     - https://github.com/kubernetes/ingress-nginx
     urls:
-    - https://yybht155.github.com/helm-charts/ingress-nginx-4.3.0.tgz
+    - https://yybht155.github.io/helm-charts/ingress-nginx-4.3.0.tgz
     version: 4.3.0
-generated: "2022-12-28T16:48:19.4911317+08:00"
+  nexus-repository-manager:
+  - apiVersion: v2
+    appVersion: 3.43.0
+    created: "2022-12-28T17:10:54.0015783+08:00"
+    description: Sonatype Nexus Repository Manager - Universal Binary repository
+    digest: ac68d572d8f94f44a6d0c8c46b7772425a3c606b526b96d201016251646d3307
+    home: https://www.sonatype.com/nexus-repository-oss
+    icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
+    keywords:
+    - artifacts
+    - dependency
+    - management
+    - sonatype
+    - nexus
+    - repository
+    - quickstart
+    - ci
+    - repository-manager
+    - nexus3
+    maintainers:
+    - email: support@sonatype.com
+      name: Sonatype
+    name: nexus-repository-manager
+    sources:
+    - https://github.com/sonatype/nexus-public
+    type: application
+    urls:
+    - https://yybht155.github.io/helm-charts/nexus-repository-manager-43.0.0.tgz
+    version: 43.0.0
+generated: "2022-12-28T17:10:53.9073864+08:00"
