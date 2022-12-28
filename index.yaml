@@ -10,7 +10,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.4.0
-    created: "2022-12-28T15:54:07.0738922+08:00"
+    created: "2022-12-28T15:57:53.5993829+08:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 894d7eac004318c7a1c5c6334327b9a3d020f15326ecf7d99aa90a3f1de5e709
@@ -30,4 +30,4 @@ entries:
     urls:
     - https://github.com/yybht155/helm-charts/ingress-nginx-4.3.0.tgz
     version: 4.3.0
-generated: "2022-12-28T15:54:07.0641865+08:00"
+generated: "2022-12-28T15:57:53.5911829+08:00"
