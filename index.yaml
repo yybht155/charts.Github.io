@@ -3,7 +3,7 @@ entries:
   gitlab:
   - apiVersion: v1
     appVersion: 15.6.2
-    created: "2022-12-28T17:10:53.9872865+08:00"
+    created: "2022-12-28T17:11:57.3836807+08:00"
     dependencies:
     - name: gitlab
       repository: ""
@@ -71,7 +71,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.4.0
-    created: "2022-12-28T17:10:53.9961892+08:00"
+    created: "2022-12-28T17:11:57.3927003+08:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 1d72ea68d41cd6195720480a390d7c6c354333590b8858944fb0f245111e6005
@@ -94,7 +94,7 @@ entries:
   nexus-repository-manager:
   - apiVersion: v2
     appVersion: 3.43.0
-    created: "2022-12-28T17:10:54.0015783+08:00"
+    created: "2022-12-28T17:11:57.3979306+08:00"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
     digest: ac68d572d8f94f44a6d0c8c46b7772425a3c606b526b96d201016251646d3307
     home: https://www.sonatype.com/nexus-repository-oss
@@ -120,4 +120,4 @@ entries:
     urls:
     - https://yybht155.github.io/helm-charts/nexus-repository-manager-43.0.0.tgz
     version: 43.0.0
-generated: "2022-12-28T17:10:53.9073864+08:00"
+generated: "2022-12-28T17:11:57.3135881+08:00"
